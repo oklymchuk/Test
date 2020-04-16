@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	fmt.Println("Please, enter numbers separated by spaces")
+	fmt.Println("Please, enter numbers separated by spaces num")
 	inputReader := bufio.NewReader(os.Stdin)
 	input, _ := inputReader.ReadString('\n')
 	s := strings.Fields(input)
